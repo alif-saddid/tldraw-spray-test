@@ -1,4 +1,5 @@
 import * as Y from "yjs";
+// @ts-ignore
 import { WebrtcProvider } from "y-webrtc";
 import { IndexeddbPersistence } from 'y-indexeddb'
 import { TDBinding, TDShape } from "@tldraw/tldraw";
