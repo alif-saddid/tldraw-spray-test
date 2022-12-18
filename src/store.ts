@@ -13,7 +13,7 @@ export const roomID = `y-tldraw-${VERSION}`;
 // Create a websocket provider
 // @ts-ignore
 export const provider = new WebrtcProvider(roomID, doc, {
-    signaling: ['ws://107.178.219.37:4444'],
+    signaling: ['ws://107.178.219.37:8080'],
   });
 
 // We persist the document content across sessions
